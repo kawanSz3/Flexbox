@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<title>Flexbox</title>
+
+<style>
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin:20px;
+}
+
+.caixa{
+    width:100px;
+    height:100px;
+}
+
+.c1{background:red;}
+.c2{background:blue;}
+.c3{background:green;}
+.c4{background:orange;}
+.c5{background:purple;}
+.c6{background:pink;}
+.c7{background:yellow;}
+.c8{background:gray;}
+.c9{background:brown;}
+
+</style>
+</head>
+
+<body>
+
+<h1>Layout com Flexbox</h1>
+
+<div class="container">
+<div class="caixa c1"></div>
+<div class="caixa c2"></div>
+<div class="caixa c3"></div>
+</div>
+
+<div class="container">
+<div class="caixa c4"></div>
+<div class="caixa c5"></div>
+<div class="caixa c6"></div>
+<div class="caixa c7"></div>
+<div class="caixa c8"></div>
+<div class="caixa c9"></div>
+</div>
+
+</body>
+</html>
